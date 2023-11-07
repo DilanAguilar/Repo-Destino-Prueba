@@ -1,16 +1,9 @@
 #!/bin/bash
 
+# Repositorio Origen
+git remote set-url --add origin "https://github.com/DilanAguilar/Repositorio-Prueba.git"
+
+git remote set-url --add origin "https://github.com/DilanAguilar/Repo-Destino-Prueba.git"
 
 
-# Repositorio 2
-repo2_path="https://github.com/DilanAguilar/Repositiorio-PWA.git"
-repo2_remote="origin"
-repo2_branch="main"
-
-cd "$repo2_path"
-
-git pull "$repo1_path" main
-
-git push "$repo2_remote" "$repo2_branch"
-
-
+git push -u origin main
