@@ -6,4 +6,4 @@ git remote set-url --add origin "https://github.com/DilanAguilar/Repositorio-Pru
 git remote set-url --add origin "https://github.com/DilanAguilar/Repo-Destino-Prueba.git"
 
 
-git push -u origin main
+git push
